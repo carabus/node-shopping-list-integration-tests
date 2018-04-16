@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: oIWO/5SGODop3RlLGmqKdkkJCJ2uKiXzghgKUUfus697fgeZshOlnyJ503gWc3Y6UDWh4zL+HBq6Mk1QZnckEufbkBRohefq2ZqtnITDWA6JYGuSy16I2QF56ND+CL8w3BGZuHV7w/q6MV4YpEVRCgq97LcCShYM3jMpZBUDRQNqCeTRBj8/gI4NQBlC0IWzzWolXtzOgP7/qBDDDnt6ODMsn/K97pZ/uimrznj+sTHDYqK8YjeopZrORghAZZydJ6itukoMEIsbmj7sr9vgd1WMKDNw7EI55SBsjcg+OPUNgfvGlP5sq7KgLyTf2WCF0Ayd9+Ac23nJQBuObMmWQb3gTgewF65DuPaqVAlBFrWnDPY/qjXPId6wsaWmD1xNzIebO0o9Kift342tb14Gepr1Vwil/NvaqyMTlyQIkvxZnNZc9DjN/IfiCWqxQvTFY3Gn2JWRjId8DqNvN6kza7zrpdmz8EGEM4EuXJPFQkA9BB88tcGPkLUCc6y+S5hoCoUwtNOweqdLdYvetFC1n03ExUmKhUhQamKibA5mn8HeCChSeSMEpVp+vCB+YNKYl+EuwHb7q4YfAGanuObggcXUzhqFX4W/AUVfhbOTxkab0UkCtvMfNC/gWsCbnzPB397LDzjxBfm8i45QkHT3hGpDGIClbFJxjp8NeRMcFFA=
+  app: protected-wildwood-56389
+  on:
+    repo: carabus/node-shopping-list-integration-tests
